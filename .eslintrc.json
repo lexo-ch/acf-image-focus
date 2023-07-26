@@ -1,0 +1,98 @@
+{
+    "root": true,
+    "extends": [
+        "eslint:recommended"
+    ],
+    "env": {
+        "amd": true,
+        "node": true,
+        "es2021": true,
+        "browser": true,
+        "jquery": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "import"
+    ],
+    "rules": {
+        "no-else-return": 1,
+        "import/no-dynamic-require": 2,
+        "no-console": 0,
+        "array-bracket-spacing": [
+            "error",
+            "never"
+        ],
+        "array-bracket-newline": [
+            "error",
+            {
+                "multiline": true
+            }
+        ],
+        "brace-style": [
+            "error",
+            "stroustrup"
+        ],
+        "camelcase": "error",
+        "func-call-spacing": [
+            "error",
+            "never"
+        ],
+        "indent": [
+            "error",
+            2,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "no-trailing-spaces": "error",
+        "object-curly-newline": [
+            "error",
+            {
+                "multiline": true,
+                "minProperties": 1
+            }
+        ],
+        "object-property-newline": "error",
+        "space-before-blocks": "error",
+        "no-multiple-empty-lines": [
+            "error",
+            {
+                "max": 2,
+                "maxEOF": 0
+            }
+        ],
+        "comma-spacing": [
+            "error",
+            {
+                "before": false,
+                "after": true
+            }
+        ],
+        "key-spacing": [
+            "error",
+            {
+                "mode": "strict"
+            }
+        ],
+        "keyword-spacing": [
+            "error",
+            {
+                "before": true,
+                "after": true
+            }
+        ],
+        "comma-dangle": [
+            "error",
+            {
+                "arrays": "always-multiline",
+                "objects": "always-multiline",
+                "imports": "always-multiline",
+                "exports": "always-multiline",
+                "functions": "ignore"
+            }
+        ]
+    }
+}

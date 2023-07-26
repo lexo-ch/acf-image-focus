@@ -1,0 +1,29 @@
+/*
+ * Admin styles
+ */
+
+:root {
+  --acfif-outline-width: 1px;
+  --acfif-outline-color: rgb(51 153 255 / 75%);
+  --acfif-outline-style: solid;
+  --acfif-image-max-width: 300px;
+  --acfif-image-max-height: 300px;
+}
+
+.acf-image-focus {
+  .cropper-view-box {
+    outline:
+      var(--acfif-outline-width)
+      var(--acfif-outline-style)
+      var(--acfif-outline-color);
+  }
+
+  .image-wrap img[data-name='acf-image-focus-image'] {
+    max-width: var(--acfif-image-max-width);
+    max-height: var(--acfif-image-max-height);
+  }
+}
+
+.acf-field-object-acf-image-focus .acf-hl[data-cols='3'] > li {
+  width: auto;
+}

@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ACF Image Field\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-11 15:52+0000\n"
+"PO-Revision-Date: 2023-07-24 21:51+0000\n"
+"Last-Translator: \n"
+"Language-Team: German (Switzerland)\n"
+"Language: de_CH\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.2.2\n"
+"X-Domain: acfif"
+
+#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Plugin/AcfImageFocusField.php:145
+#, php-format
+msgid ""
+"%s for this image has been changed from %s to %s. Please adjust the focus "
+"again and save this post."
+msgstr ""
+"%s für dieses Bild wurde von %s auf %s geändert. Bitte stellen Sie den Fokus "
+"erneut ein und speichern Sie diesen Beitrag."
+
+#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Bootloader.php:43
+#, php-format
+msgid "%s requires at least ACF %s!"
+msgstr "%s erfordert mindestens ACF %s!"
+
+#: ../../../../../../../Documents/GitHub/acf-image-focus/acf-image-focus.php:130
+#, php-format
+msgid ""
+"%s requires PHP %s or greater.<br/>\n"
+"                    Go back to <a href=\"%s\">Dashboard</a>"
+msgstr ""
+"%s erfordert PHP %s oder höher.<br/>\n"
+"                    Zurück zum <a href=\"%s\">Dashboard</a>"
+
+#: ../../../../../../../Documents/GitHub/acf-image-focus/acf-image-focus.php:142
+#, php-format
+#| msgid ""
+#| "%s requires WordPress %s<br/>\n"
+#| "                    Go back to <a href=\"%s\">Dashboard</a>"
+msgid ""
+"%s requires WordPress %s or greater.<br/>\n"
+"                    Go back to <a href=\"%s\">Dashboard</a>"
+msgstr ""
+"%s erfordert WordPress %s oder höher.<br/>\n"
+"                    Zurück zum <a href=\"%s\">Dashboard</a>"
+
+#. Description of the plugin
+msgid ""
+"ACF extension for displaying the images with different proportions in "
+"predefined \"frame\" by setting position, without cropping."
+msgstr ""
+"ACF-Erweiterung für die Anzeige von Bildern mit unterschiedlichen "
+"Proportionen in einem vordefinierten \"Frame\" durch Einstellung der "
+"Position, ohne Beschneidung."
+
+#. Name of the plugin
+msgid "ACF Image Focus"
+msgstr "ACF Image Focus"
+
+#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Traits/Helpers.php:80
+msgid "Applies to the image in the frontend."
+msgstr "Gilt für das Bild im Frontend."
+
+#. URI of the plugin
+#| msgid "https://github.com/lexo-mpuzovic/acf-image-focus/"
+msgid "https://github.com/lexo-ch/acf-image-focus/"
+msgstr "https://github.com/lexo-ch/acf-image-focus/"
+
+#. Author URI of the plugin
+msgid "https://www.lexo.ch"
+msgstr "https://www.lexo.ch"
+
+#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Traits/Helpers.php:49
+msgid "Image Aspect Ratio"
+msgstr "Bildseitenverhältnis"
+
+#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Traits/Helpers.php:75
+msgid "Image Element"
+msgstr "Bild-Element"
+
+#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Traits/Helpers.php:50
+msgid "Image Size"
+msgstr "Bildgrösse"
+
+#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Traits/Helpers.php:87
+#, php-format
+msgid "Image size used for %s"
+msgstr "Bildgrösse verwendet für %s"
+
+#. Author of the plugin
+msgid "LEXO GmbH"
+msgstr "LEXO GmbH"
+
+#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Plugin/PluginService.php:114
+#, php-format
+msgid "Plugin %s is up to date."
+msgstr "Plugin %s ist aktuell."
+
+#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Plugin/PluginService.php:105
+msgid "Security check failed."
+msgstr "Sicherheitsüberprüfung fehlgeschlagen."
+
+#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Plugin/PluginService.php:80
+msgid "Update check"
+msgstr "Update Überprüfung"

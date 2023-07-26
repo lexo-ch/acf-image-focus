@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "shd101wyy.markdown-preview-enhanced",
+        "mehedidracula.php-namespace-resolver",
+        "stylelint.vscode-stylelint",
+        "oderwat.indent-rainbow",
+        "vincaslt.highlight-matching-tag",
+        "pkief.material-icon-theme",
+        "esbenp.prettier-vscode",
+        "bmewburn.vscode-intelephense-client",
+        "valeryanm.vscode-phpsab",
+        "johnbillion.vscode-wordpress-hooks",
+        "wordpresstoolbox.wordpress-toolbox",
+    ]
+}
+
