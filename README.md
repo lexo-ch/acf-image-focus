@@ -22,26 +22,26 @@ Release tags are created with Semantic versioning in mind. Commit messages were 
 ## Usage
 Use it as any other ACF field.
 
-<img src="/screenshots/1.jpeg?raw=true" style="width: 100; max-width: 600px; height: auto;">
+<img src="/screenshots/1.jpeg?raw=true" style="border: 1px solid silver;">
 <blockquote>
     <small>Selecting return format: (1) Image Array and (2) Image Element.</small>
 </blockquote>
 
 ---
-<img src="/screenshots/2.jpeg?raw=true" style="width: 100; max-width: 600px; height: auto;">
+<img src="/screenshots/2.jpeg?raw=true" style="border: 1px solid silver;;">
 <blockquote>
     <small>(1) Selecting Image Size of the image used in frontend </small><br>
     <small>(2) Selecting Image Aspect Ratio of the image used in frontend and in the "frame" as well. </small>
 </blockquote>
 
 ---
-<img src="/screenshots/3.jpeg?raw=true" style="width: 100; max-width: 600px; height: auto;">
+<img src="/screenshots/3.jpeg?raw=true" style="border: 1px solid silver;">
 <blockquote>
     <small>(1) "Frame" over the image in desired aspect ratio. In our example that "frame" has aspect ratio of 1.7 over the portrait image. "Frame" can be dragged to desired position.</small>
 </blockquote>
 
 ---
-<img src="/screenshots/4.jpeg?raw=true" style="width: 100; max-width: 600px; height: auto;">
+<img src="/screenshots/4.jpeg?raw=true" style="border: 1px solid silver;">
 <blockquote>
     <small>Final result in the frontend. Image uses seleted image size (Medium in our example) but only the the are selected by "frame" is shown, no additional crops of the image are being made.</small>
 </blockquote>
