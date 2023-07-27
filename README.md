@@ -37,13 +37,13 @@ Use it as any other ACF field.
 ---
 <img src="/screenshots/3.jpeg?raw=true" style="width: 100; max-width: 600px; height: auto;">
 <blockquote>
-    <small>(1) Frame over the image in desired aspect ratio. In our example that "frame" has aspect ratio of 1.7 over the portrait image.</small>
+    <small>(1) "Frame" over the image in desired aspect ratio. In our example that "frame" has aspect ratio of 1.7 over the portrait image. "Frame" can be dragged to desired position.</small>
 </blockquote>
 
 ---
 <img src="/screenshots/4.jpeg?raw=true" style="width: 100; max-width: 600px; height: auto;">
 <blockquote>
-    <small>Final result in the frontend. Image uses seleted image size (Medium in our example) but only the selected portion of the image is shown, no additional crops of the image are made.</small>
+    <small>Final result in the frontend. Image uses seleted image size (Medium in our example) but only the the are selected by "frame" is shown, no additional crops of the image are being made.</small>
 </blockquote>
 
 ---
