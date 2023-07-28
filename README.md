@@ -43,7 +43,7 @@ Use it as any other ACF field.
 ---
 <img src="/screenshots/4.jpeg?raw=true">
 <blockquote>
-    <small>Final result in the frontend. Image uses seleted image size (Medium in our example) but only the the are selected by "frame" is shown, no additional crops of the image are being made.</small>
+    <small>Final result in the frontend. Image uses selected image size (Medium in our example) but only the area selected by "frame" is shown, no additional crops of the image are being made.</small>
 </blockquote>
 
 ---
