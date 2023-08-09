@@ -64,7 +64,7 @@ Return value is array with folowing elements:
 
 *Example*
 
-```
+```php
 Array
 (
     [image_id] => 13
@@ -84,7 +84,7 @@ Array
 Return value is `<img>` tag with already applied Image array.
 
 *Example*
-```
+```html
 <img
     data-image-id="13"
     class="acf-image-focus"
