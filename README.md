@@ -15,8 +15,9 @@ Release tags are created with Semantic versioning in mind. Commit messages were 
 
 ---
 ## Installation
-1. Download the [latest release](https://github.com/lexo-ch/acf-image-focus/releases/latest/) (in Assets, the link named `Version x.y.z`). It's a compiled build.
-2. Extract zip file and copy the folder into your `wp-content/plugins` folder and activate ACF Image Focus in plugins admin page. Alternatively, you can use downloaded zip file to install it directly from your plugin admin page.
+1. Go to the [latest release](https://github.com/lexo-ch/acf-image-focus/releases/latest/).
+2. Under Assets, click on the link named `Version x.y.z`. It's a compiled build.
+3. Extract zip file and copy the folder into your `wp-content/plugins` folder and activate ACF Image Focus in plugins admin page. Alternatively, you can use downloaded zip file to install it directly from your plugin admin page.
 
 ---
 ## Usage
