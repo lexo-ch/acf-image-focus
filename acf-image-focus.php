@@ -4,7 +4,7 @@
  * Plugin Name:       ACF Image Focus
  * Plugin URI:        https://github.com/lexo-ch/acf-image-focus/
  * Description:       ACF extension for displaying the images with different proportions in predefined "frame" by setting position, without cropping.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Requires at least: 4.7
  * Requires PHP:      7.4.1
  * Author:            LEXO GmbH
