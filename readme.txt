@@ -3,7 +3,7 @@ Contributors: mpuzovic
 Donate link: https://www.lexo.ch
 Tags: acf, fields, custom fields, image, focus
 Requires at least: 4.7
-Tested up to: 6.2.2
+Tested up to: 6.3.2
 Stable tag: 1.0.2
 Requires PHP: 7.4.1
 License: GPLv2 or later

@@ -7,7 +7,7 @@
     "version": "1.0.2",
     "download_url": "https://github.com/lexo-ch/acf-image-focus/releases/download/v1.0.2/acf-image-focus-1.0.2.zip",
     "requires": "4.7",
-    "tested": "6.2.2",
+    "tested": "6.3.2",
     "requires_php": "7.4.1",
     "sections": {
         "description": "ACF extension for displaying the images with different proportions in predefined \"frame\" by setting position, without cropping.<br><a href='https://github.com/lexo-ch/acf-image-focus/' target='_blank'>More about plugin</a>",
