@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/lexo-ch/acf-image-focus/compare/v1.0.2...v1.0.3) (2023-10-26)
+
+
+### Bug Fixes
+
+* **docs:** Update plugin data in ACF field type modal ([55294b7](https://github.com/lexo-ch/acf-image-focus/commit/55294b7260b335f08a0b04435d232cb8e565c66e))
+
 ## [1.0.2](https://github.com/lexo-ch/acf-image-focus/compare/v1.0.1...v1.0.2) (2023-10-19)
 
 
