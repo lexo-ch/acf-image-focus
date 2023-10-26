@@ -13,6 +13,7 @@ use const LEXO\AcfIF\{
     PATH,
     FIELD_NAME,
     PLUGIN_NAME,
+    FILE
 };
 use const LEXO\AcfIF\Core\{
     ACF_MAJOR_VERSION
@@ -37,6 +38,16 @@ class AcfImageFocusField extends acf_field
         ];
 
         $this->label = PLUGIN_NAME;
+
+        $this->description = get_file_data(FILE, [
+            'Description' => 'Description'
+        ])['Description'];
+
+        $this->doc_url = get_file_data(FILE, [
+            'Plugin URI' => 'Plugin URI'
+        ])['Plugin URI'];
+
+        $this->preview_image = 'https://raw.githubusercontent.com/lexo-ch/acf-image-focus/master/screenshots/3.jpeg';
 
         $this->category = 'content';
 
