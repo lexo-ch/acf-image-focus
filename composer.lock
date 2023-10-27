@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "44dce9538a875eba938c093a2730bbe9",
+    "content-hash": "96d1d1809f65d2b0492be9b9f1fedc04",
     "packages": [
         {
             "name": "lexo/plugin-updater",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lexo-mpuzovic/plugin-updater.git",
-                "reference": "897e76eced7cb2d26cd7aef1d57b01b4ef64ea32"
+                "reference": "b45ae135e83d80ebb63c7a392391be6dcd3c83b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lexo-mpuzovic/plugin-updater/zipball/897e76eced7cb2d26cd7aef1d57b01b4ef64ea32",
-                "reference": "897e76eced7cb2d26cd7aef1d57b01b4ef64ea32",
+                "url": "https://api.github.com/repos/lexo-mpuzovic/plugin-updater/zipball/b45ae135e83d80ebb63c7a392391be6dcd3c83b9",
+                "reference": "b45ae135e83d80ebb63c7a392391be6dcd3c83b9",
                 "shasum": ""
             },
             "require": {
@@ -52,9 +52,9 @@
             ],
             "support": {
                 "issues": "https://github.com/lexo-mpuzovic/plugin-updater/issues",
-                "source": "https://github.com/lexo-mpuzovic/plugin-updater/tree/v1.1.0"
+                "source": "https://github.com/lexo-mpuzovic/plugin-updater/tree/v1.1.1"
             },
-            "time": "2023-07-16T14:47:45+00:00"
+            "time": "2023-10-27T09:54:57+00:00"
         },
         {
             "name": "tronyx/asset-loader",
