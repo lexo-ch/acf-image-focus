@@ -1,7 +1,7 @@
 {
     "name": "lexo/acf-image-focus",
     "description": "ACF extension for displaying the images with different proportions in predefined 'frame' by setting position, without cropping.",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "homepage": "https://www.lexo.ch/",
     "license": "GPL-2.0-only",
     "authors": [
