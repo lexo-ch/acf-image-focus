@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/lexo-ch/acf-image-focus/compare/v1.0.5...v1.0.6) (2023-11-07)
+
+
+### Bug Fixes
+
+* **core:** Switch admin scripts from defer to async ([b884761](https://github.com/lexo-ch/acf-image-focus/commit/b884761f2eb3ffa8d6be2f0f48d3036bbfb4d590))
+
 ## [1.0.5](https://github.com/lexo-ch/acf-image-focus/compare/v1.0.4...v1.0.5) (2023-11-07)
 
 
