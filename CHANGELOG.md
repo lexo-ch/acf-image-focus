@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/lexo-ch/acf-image-focus/compare/v1.0.4...v1.0.5) (2023-11-07)
+
+
+### Bug Fixes
+
+* **core:** Use Loader and Updater directly ([5d3bb5c](https://github.com/lexo-ch/acf-image-focus/commit/5d3bb5cb921fc71be6cc32b1571ae00ae7021e7e))
+
 ## [1.0.4](https://github.com/lexo-ch/acf-image-focus/compare/v1.0.3...v1.0.4) (2023-10-27)
 
 
