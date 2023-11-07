@@ -24,9 +24,7 @@
         }
     },
     "require": {
-        "php": ">=7.4.1",
-        "tronyx/asset-loader": "^2.1",
-        "lexo/plugin-updater": "^1.0"
+        "php": ">=7.4.1"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.7"

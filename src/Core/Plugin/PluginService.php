@@ -3,9 +3,9 @@
 namespace LEXO\AcfIF\Core\Plugin;
 
 use LEXO\AcfIF\Core\Abstracts\Singleton;
+use LEXO\AcfIF\Core\Loader\Loader;
 use LEXO\AcfIF\Core\Traits\Helpers;
-use LEXO\Updater\PluginUpdater;
-use Tronyx\Asset\Loader;
+use LEXO\AcfIF\Core\Updater\PluginUpdater;
 
 use const LEXO\AcfIF\{
     ASSETS,
