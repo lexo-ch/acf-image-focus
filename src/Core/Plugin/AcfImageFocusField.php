@@ -182,8 +182,8 @@ class AcfImageFocusField extends acf_field
             'position_y'    => $field['value']['position_y'] ?? '',
         ];
 
-        $img = ($id) ? wp_get_attachment_image_src($id, $field['preview_size']) : '';
-        $url = ($id) ? $img[0] : '';
+        $img = $id ? wp_get_attachment_image_src($id, $field['preview_size']) : '';
+        $url = ($id && $img) ? $img[0] : '';
 
         $acf_image_focus_classes = [
             'acf-image-focus',
