@@ -9,9 +9,9 @@ Release tags are created with Semantic versioning in mind. Commit messages were 
 
 ---
 ## Compatibility
-- WordPress version `>=4.7`. Tested and works fine up to `6.4.0`.
+- WordPress version `>=4.7`. Tested and works fine up to `6.4.2`.
 - PHP version `>=7.4.1`. Tested and works fine up to `8.2.10`.
-- Minimum major ACF version `5`. Tested and works fine up to `6.2.2`.
+- Minimum major ACF version `5`. Tested and works fine up to `6.2.4`.
 
 ---
 ## Installation
