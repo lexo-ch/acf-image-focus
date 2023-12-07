@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ACF Image Field\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-24 21:46+0000\n"
+"POT-Creation-Date: 2023-12-07 09:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-Loco-Version: 2.6.2; wp-6.0.2\n"
 "X-Domain: acfif"
 
-#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Plugin/AcfImageFocusField.php:145
+#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Plugin/AcfImageFocusField.php:158
 #, php-format
 msgid ""
 "%s for this image has been changed from %s to %s. Please adjust the focus "
@@ -52,8 +52,14 @@ msgstr ""
 msgid "ACF Image Focus"
 msgstr ""
 
-#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Traits/Helpers.php:80
+#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Traits/Helpers.php:81
 msgid "Applies to the image in the frontend."
+msgstr ""
+
+#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Traits/Helpers.php:160
+msgid ""
+"Applies to the image in the frontend. Space separated list (e.g. <i>class1 "
+"class-second class_3</i>)."
 msgstr ""
 
 #. URI of the plugin
@@ -68,7 +74,11 @@ msgstr ""
 msgid "Image Aspect Ratio"
 msgstr ""
 
-#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Traits/Helpers.php:75
+#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Traits/Helpers.php:59
+msgid "Image Classes"
+msgstr ""
+
+#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Traits/Helpers.php:76
 msgid "Image Element"
 msgstr ""
 
@@ -76,7 +86,7 @@ msgstr ""
 msgid "Image Size"
 msgstr ""
 
-#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Traits/Helpers.php:87
+#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Traits/Helpers.php:88
 #, php-format
 msgid "Image size used for %s"
 msgstr ""

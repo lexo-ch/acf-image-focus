@@ -45,17 +45,18 @@ trait Helpers
     public static function getSettingsNames(): array
     {
         return [
-            'return_format' => __('Return Format', 'acf'),
-            'aspect_ratio'  => __('Image Aspect Ratio', 'acfif'),
-            'preview_size'  => __('Image Size', 'acfif'),
-            'library'       => __('Library', 'acf'),
-            'min_width'     => __('Minimum', 'acf'),
-            'min_height'    => '',
-            'min_size'      => '',
-            'max_width'     => __('Maximum', 'acf'),
-            'max_height'    => '',
-            'max_size'      => '',
-            'mime_types'    => __('Allowed file types', 'acf'),
+            'return_format'         => __('Return Format', 'acf'),
+            'aspect_ratio'          => __('Image Aspect Ratio', 'acfif'),
+            'preview_size'          => __('Image Size', 'acfif'),
+            'library'               => __('Library', 'acf'),
+            'min_width'             => __('Minimum', 'acf'),
+            'min_height'            => '',
+            'min_size'              => '',
+            'max_width'             => __('Maximum', 'acf'),
+            'max_height'            => '',
+            'max_size'              => '',
+            'mime_types'            => __('Allowed file types', 'acf'),
+            'acfif_field_classes'   => __('Image Classes', 'acfif')
         ];
     }
 
@@ -153,6 +154,12 @@ trait Helpers
                 'instructions'  => __('Comma separated list. Leave blank for all types', 'acf'),
                 'type'          => 'text',
                 'name'          => 'mime_types',
+            ],
+            'acfif_field_classes' => [
+                'label'         => $settings_names['acfif_field_classes'],
+                'instructions'  => __('Applies to the image in the frontend. Space separated list (e.g. <i>class1 class-second class_3</i>).', 'acfif'),
+                'type'          => 'text',
+                'name'          => 'acfif_field_classes',
             ],
         ];
     }

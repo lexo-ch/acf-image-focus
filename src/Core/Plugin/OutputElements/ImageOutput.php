@@ -34,7 +34,8 @@ class ImageOutput implements OutputInterface
         $style_attr = apply_filters("{$this->name}/image/style-attribute/key={$formatted_value['field_key']}", $style_attr);
 
         $classes = [
-            'acf-image-focus'
+            'acf-image-focus',
+            $formatted_value['field_classes']
         ];
 
         $classes = apply_filters("{$this->name}/image/classes", $classes);

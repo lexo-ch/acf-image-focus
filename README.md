@@ -59,6 +59,7 @@ Return value is array with folowing elements:
 - (float) `position_x` - Value (percentage) of the X-axis (equivalent to `left`).
 - (float) `position_y` - Value (percentage) of the Y-axis (equivalent to `top`).
 - (float) `aspect_ratio` - Image aspect ratio in frontend.
+- (string) `field_classes` - Image classes in frontend.
 - (string) `url` - Image URL.
 - (int) `width` - Width in pixels.
 - (int) `height` - Height in pixels.
@@ -75,6 +76,7 @@ Array
     [position_x] => 0
     [position_y] => 16.13
     [aspect_ratio] => 1.778
+    [field_classes] => class1 class2
     [url] => http://acfimagefocus.test/wp-content/uploads/2023/07/test-image-768x599.webp
     [width] => 768
     [height] => 671
@@ -88,7 +90,7 @@ Return value is `<img>` tag with already applied Image array.
 ```html
 <img
     data-image-id="13"
-    class="acf-image-focus"
+    class="acf-image-focus class1 class2"
     loading="lazy"
     decoding="async"
     width="768"

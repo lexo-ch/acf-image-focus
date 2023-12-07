@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: ACF Image Field\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-11 15:52+0000\n"
-"PO-Revision-Date: 2023-07-24 21:51+0000\n"
+"PO-Revision-Date: 2023-12-07 09:51+0000\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Loco-Version: 2.6.2; wp-6.0.2\n"
 "X-Domain: acfif"
 
-#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Plugin/AcfImageFocusField.php:145
+#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Plugin/AcfImageFocusField.php:158
 #, php-format
 msgid ""
 "%s for this image has been changed from %s to %s. Please adjust the focus "
@@ -63,9 +63,20 @@ msgstr ""
 msgid "ACF Image Focus"
 msgstr "ACF Image Focus"
 
-#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Traits/Helpers.php:80
+#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Traits/Helpers.php:81
 msgid "Applies to the image in the frontend."
 msgstr "Gilt für das Bild im Frontend."
+
+#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Traits/Helpers.php:160
+#| msgid ""
+#| "Applies to the image in the frontend. Comma separated list (e.g. <i>"
+#| "class1, class-second, class_3</i>)."
+msgid ""
+"Applies to the image in the frontend. Space separated list (e.g. <i>class1 "
+"class-second class_3</i>)."
+msgstr ""
+"Gilt für das Bild im Frontend. Durch Leerzeichen getrennte Liste (z. B. <i>"
+"class1 class-second class_3</i>)."
 
 #. URI of the plugin
 #| msgid "https://github.com/lexo-mpuzovic/acf-image-focus/"
@@ -80,7 +91,11 @@ msgstr "https://www.lexo.ch"
 msgid "Image Aspect Ratio"
 msgstr "Bildseitenverhältnis"
 
-#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Traits/Helpers.php:75
+#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Traits/Helpers.php:59
+msgid "Image Classes"
+msgstr "Bildklassen"
+
+#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Traits/Helpers.php:76
 msgid "Image Element"
 msgstr "Bild-Element"
 
@@ -88,7 +103,7 @@ msgstr "Bild-Element"
 msgid "Image Size"
 msgstr "Bildgröße"
 
-#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Traits/Helpers.php:87
+#: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Traits/Helpers.php:88
 #, php-format
 msgid "Image size used for %s"
 msgstr "Bildgröße verwendet für %s"
