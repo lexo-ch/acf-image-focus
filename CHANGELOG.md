@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/lexo-ch/acf-image-focus/compare/v1.1.0...v1.1.1) (2023-12-7)
+
+
+### Bug Fixes
+
+* **core:** Change of the plugin name ([0b09d37](https://github.com/lexo-ch/acf-image-focus/commit/0b09d37839f08ec7fccfd7f66cf36eed52b655bd))
+
 # [1.1.0](https://github.com/lexo-ch/acf-image-focus/compare/v1.0.6...v1.1.0) (2023-12-7)
 
 
