@@ -260,7 +260,7 @@ class AcfImageFocusField extends acf_field
             'position_x'    => round($value['position_x'], 2),
             'position_y'    => round($value['position_y'], 2),
             'aspect_ratio'  => $field['aspect_ratio'],
-            'field_classes' => $field['acfif_field_classes']
+            'field_classes' => $field['acfif_field_classes'] ?? ''
         ];
 
         switch ($field['return_format']) {
