@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/lexo-ch/acf-image-focus/compare/v1.1.1...v1.1.2) (2023-12-7)
+
+
+### Bug Fixes
+
+* **core:** Fix undefined "acfif_field_classes" ([6b7143d](https://github.com/lexo-ch/acf-image-focus/commit/6b7143d32e67463f6f17a1053717a2a58e912ec5))
+
 ## [1.1.1](https://github.com/lexo-ch/acf-image-focus/compare/v1.1.0...v1.1.1) (2023-12-7)
 
 
