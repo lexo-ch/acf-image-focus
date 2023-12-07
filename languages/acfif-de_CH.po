@@ -60,8 +60,8 @@ msgstr ""
 "Position, ohne Beschneidung."
 
 #. Name of the plugin
-msgid "ACF Image Focus"
-msgstr "ACF Image Focus"
+msgid "LEXO ACF Image Focus"
+msgstr "LEXO ACF Image Focus"
 
 #: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Traits/Helpers.php:81
 msgid "Applies to the image in the frontend."

@@ -1,4 +1,4 @@
-=== ACF Image Focus ===
+=== LEXO ACF Image Focus ===
 Contributors: mpuzovic
 Donate link: https://www.lexo.ch
 Tags: acf, fields, custom fields, image, focus

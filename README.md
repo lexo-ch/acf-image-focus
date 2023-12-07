@@ -1,7 +1,7 @@
-# ACF Image Focus
+# LEXO ACF Image Focus
 ACF extension for displaying the images with different proportions in predefined "frame" by setting position, without cropping.
 
-This extension adds a new "ACF Image Focus" field to [Advanced Custom Fields](https://www.advancedcustomfields.com/). It works similar to a default [ACF Image field](https://www.advancedcustomfields.com/resources/image/).
+This extension adds a new "LEXO ACF Image Focus" field to [Advanced Custom Fields](https://www.advancedcustomfields.com/). It works similar to a default [ACF Image field](https://www.advancedcustomfields.com/resources/image/).
 
 ---
 ## Versioning
@@ -17,7 +17,7 @@ Release tags are created with Semantic versioning in mind. Commit messages were 
 ## Installation
 1. Go to the [latest release](https://github.com/lexo-ch/acf-image-focus/releases/latest/).
 2. Under Assets, click on the link named `Version x.y.z`. It's a compiled build.
-3. Extract zip file and copy the folder into your `wp-content/plugins` folder and activate ACF Image Focus in plugins admin page. Alternatively, you can use downloaded zip file to install it directly from your plugin admin page.
+3. Extract zip file and copy the folder into your `wp-content/plugins` folder and activate LEXO ACF Image Focus in plugins admin page. Alternatively, you can use downloaded zip file to install it directly from your plugin admin page.
 
 ---
 ## Usage
@@ -113,7 +113,7 @@ Return value is `<img>` tag with already applied Image array.
     width="768"
     height="671"
     src="http://acfimagefocus.test/wp-content/uploads/2023/07/test-image-768x599.webp" 
-    alt="ACF Image Focus" 
+    alt="LEXO ACF Image Focus" 
     style="object-fit: cover; object-position: 0% 16.13%; aspect-ratio: 1.778; height: auto; max-width: 100%"
 >
 ```
@@ -138,62 +138,62 @@ Return value is `<img>` tag with already applied Image array.
 #### - `acfif/image/style-attribute`
 *Parameters*
 `apply_filters('acfif/image/style-attribute', $args);`
-- $args (array) The array which will be used for `style` attribute of the ACF Image Focus image element.
+- $args (array) The array which will be used for `style` attribute of the LEXO ACF Image Focus image element.
 
 #### - `acfif/image/style-attribute/name={$acf_field_name}`
 *Parameters*
 `apply_filters('acfif/image/style-attribute/name={$acf_field_name}', $args);`
-- $args (array) The array which will be used for `style` attribute of the ACF Image Focus image element with provided name.
+- $args (array) The array which will be used for `style` attribute of the LEXO ACF Image Focus image element with provided name.
 
 #### - `acfif/image/style-attribute/key={$acf_field_key}`
 *Parameters*
 `apply_filters('acfif/image/style-attribute/key={$acf_field_key}', $args);`
-- $args (array) The array which will be used for `style` attribute of the ACF Image Focus image element with provided key.
+- $args (array) The array which will be used for `style` attribute of the LEXO ACF Image Focus image element with provided key.
 
 #### - `acfif/image/classes`
 *Parameters*
 `apply_filters('acfif/image/classes', $args);`
-- $args (array) The array which will be used for `class` attribute of the ACF Image Focus image element.
+- $args (array) The array which will be used for `class` attribute of the LEXO ACF Image Focus image element.
 
 #### - `acfif/image/classes/name={$acf_field_name}`
 *Parameters*
 `apply_filters('acfif/image/classes/name={$acf_field_name}', $args);`
-- $args (array) The array which will be used for `class` attribute of the ACF Image Focus image element with provided name.
+- $args (array) The array which will be used for `class` attribute of the LEXO ACF Image Focus image element with provided name.
 
 #### - `acfif/image/classes/key={$acf_field_key}`
 *Parameters*
 `apply_filters('acfif/image/classes/key={$acf_field_key}', $args);`
-- $args (array) The array which will be used for `class` attribute of the ACF Image Focus image element with provided key.
+- $args (array) The array which will be used for `class` attribute of the LEXO ACF Image Focus image element with provided key.
 
 #### - `acfif/image/attributes`
 *Parameters*
 `apply_filters('acfif/image/attributes', $args);`
-- $args (array) The array which will be used for creating all attributes when printing ACF Image Focus field as image element.
+- $args (array) The array which will be used for creating all attributes when printing LEXO ACF Image Focus field as image element.
 
 #### - `acfif/image/attributes/name={$acf_field_name}`
 *Parameters*
 `apply_filters('acfif/image/attributes/name={$acf_field_name}', $args);`
-- $args (array) The array which will be used for creating all attributes when printing ACF Image Focus field as image element with provided name.
+- $args (array) The array which will be used for creating all attributes when printing LEXO ACF Image Focus field as image element with provided name.
 
 #### - `acfif/image/attributes/key={$acf_field_key}`
 *Parameters*
 `apply_filters('acfif/image/attributes/key={$acf_field_key}', $args);`
-- $args (array) The array which will be used for creating all attributes when printing ACF Image Focus field as image element with provided key.
+- $args (array) The array which will be used for creating all attributes when printing LEXO ACF Image Focus field as image element with provided key.
 
 #### - `acfif/image/element`
 *Parameters*
 `apply_filters('acfif/image/element', $args);`
-- $args (string) HTML output of the ACF Image Focus image element.
+- $args (string) HTML output of the LEXO ACF Image Focus image element.
 
 #### - `acfif/image/element/name={$acf_field_name}`
 *Parameters*
 `apply_filters('acfif/image/element/name={$acf_field_name}', $args);`
-- $args (string) HTML output of the ACF Image Focus image element with provided name.
+- $args (string) HTML output of the LEXO ACF Image Focus image element with provided name.
 
 #### - `acfif/image/element/key={$acf_field_key}`
 *Parameters*
 `apply_filters('acfif/image/element/key={$acf_field_key}', $args);`
-- $args (string) HTML output of the ACF Image Focus image element with provided key.
+- $args (string) HTML output of the LEXO ACF Image Focus image element with provided key.
 
 #### - `acfif/image/data`
 *Parameters*
@@ -213,10 +213,10 @@ Return value is `<img>` tag with already applied Image array.
 ---
 ## Actions
 #### - `acfif/init`
-- Fires on ACF Image Focus init.
+- Fires on LEXO ACF Image Focus init.
 
 #### - `acfif/localize/admin-acfif.js`
-- Fires right before ACF Image Focus admin script has been enqueued.
+- Fires right before LEXO ACF Image Focus admin script has been enqueued.
 
 ---
 #### Dependencies

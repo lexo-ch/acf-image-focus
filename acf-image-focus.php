@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name:       ACF Image Focus
+ * Plugin Name:       LEXO ACF Image Focus
  * Plugin URI:        https://github.com/lexo-ch/acf-image-focus/
  * Description:       ACF extension for displaying the images with different proportions in predefined "frame" by setting position, without cropping.
  * Version:           1.1.0
@@ -96,7 +96,7 @@ use LEXO\AcfIF\Core\Bootloader;
     && define('LEXO\AcfIF\UPDATE_PATH', 'https://wprepo.lexo.ch/public/acf-image-focus/info.json');
 
 if (!file_exists($composer = PATH . '/vendor/autoload.php')) {
-    wp_die('Error locating autoloader in ACF Image Focus.
+    wp_die('Error locating autoloader in LEXO ACF Image Focus.
         Please run a following command:<pre>composer install</pre>', 'acfif');
 }
 

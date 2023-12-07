@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 
 #. Name of the plugin
-msgid "ACF Image Focus"
+msgid "LEXO ACF Image Focus"
 msgstr ""
 
 #: ../../../../../../../Documents/GitHub/acf-image-focus/src/Core/Traits/Helpers.php:81
