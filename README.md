@@ -63,6 +63,14 @@ Return value is array with folowing elements:
 - (string) `url` - Image URL.
 - (int) `width` - Width in pixels.
 - (int) `height` - Height in pixels.
+- (string) `alt` - Image alt.
+- (string) `author` - ID of the image uploader.
+- (string) `description` - Image description.
+- (string) `caption` - Image caption.
+- (int) `uploaded_to` - ID of the post on on which image has been uploaded. If image is not related to any post then it defaults to `0`.
+- (string) `date` - Image upload date.
+- (string) `mime_type` - Image mime type.
+- (string) `subtype` - Image subtype.
 
 *Example*
 
@@ -80,6 +88,15 @@ Array
     [url] => http://acfimagefocus.test/wp-content/uploads/2023/07/test-image-768x599.webp
     [width] => 768
     [height] => 671
+    [alt] => 
+    [author] => 1
+    [description] => 
+    [caption] => 
+    [uploaded_to] => 0
+    [date] => 2023-11-07 08:17:27
+    [modified] => 2023-11-07 08:17:27
+    [mime_type] => image/webp
+    [subtype] => webp
 )
 ```
 
