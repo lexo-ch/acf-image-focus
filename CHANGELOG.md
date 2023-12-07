@@ -1,3 +1,20 @@
+# [1.1.0](https://github.com/lexo-ch/acf-image-focus/compare/v1.0.6...v1.1.0) (2023-12-7)
+
+
+### Bug Fixes
+
+* **core:** Bump "tested up to" versions ([9bc061e](https://github.com/lexo-ch/acf-image-focus/commit/9bc061e231fb08d9af2a5f7214175a2ab6f1213d))
+* **core:** Fix random initialisation failures of UI ([9d5369d](https://github.com/lexo-ch/acf-image-focus/commit/9d5369d87c89417fc244f72feeb647b683691fb9))
+* **core:** Fix warning when assigned image is deleted from Media ([83b8185](https://github.com/lexo-ch/acf-image-focus/commit/83b818500daf3c644e0c8333461b1313cae894b9))
+* **deps:** Update dependencies ([dfbbd4c](https://github.com/lexo-ch/acf-image-focus/commit/dfbbd4c2be8b681f9afb02c9d81b3daf73b46cc0))
+* **github-release:** Bump release versions ([91849b2](https://github.com/lexo-ch/acf-image-focus/commit/91849b2cf51d2eee290fcbe233fafd2fd0ebdc58))
+
+
+### Features
+
+* **core:** Add "Image classes" field ([01753f9](https://github.com/lexo-ch/acf-image-focus/commit/01753f9e0b2abdb92b15a9e394d2cfdc5271ca96))
+* **core:** Expand fields in array output ([5a795e7](https://github.com/lexo-ch/acf-image-focus/commit/5a795e7f95cde6d3da6c914148b937d2a9bc18c0))
+
 ## [1.0.6](https://github.com/lexo-ch/acf-image-focus/compare/v1.0.5...v1.0.6) (2023-11-07)
 
 
