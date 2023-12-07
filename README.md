@@ -9,9 +9,9 @@ Release tags are created with Semantic versioning in mind. Commit messages were 
 
 ---
 ## Compatibility
-- WordPress version `>=4.7`. Tested and works fine up to `6.4.0`.
+- WordPress version `>=4.7`. Tested and works fine up to `6.4.2`.
 - PHP version `>=7.4.1`. Tested and works fine up to `8.2.10`.
-- Minimum major ACF version `5`. Tested and works fine up to `6.2.2`.
+- Minimum major ACF version `5`. Tested and works fine up to `6.2.4`.
 
 ---
 ## Installation
@@ -59,9 +59,18 @@ Return value is array with folowing elements:
 - (float) `position_x` - Value (percentage) of the X-axis (equivalent to `left`).
 - (float) `position_y` - Value (percentage) of the Y-axis (equivalent to `top`).
 - (float) `aspect_ratio` - Image aspect ratio in frontend.
+- (string) `field_classes` - Image classes in frontend.
 - (string) `url` - Image URL.
 - (int) `width` - Width in pixels.
 - (int) `height` - Height in pixels.
+- (string) `alt` - Image alt.
+- (string) `author` - ID of the image uploader.
+- (string) `description` - Image description.
+- (string) `caption` - Image caption.
+- (int) `uploaded_to` - ID of the post on on which image has been uploaded. If image is not related to any post then it defaults to `0`.
+- (string) `date` - Image upload date.
+- (string) `mime_type` - Image mime type.
+- (string) `subtype` - Image subtype.
 
 *Example*
 
@@ -75,9 +84,19 @@ Array
     [position_x] => 0
     [position_y] => 16.13
     [aspect_ratio] => 1.778
+    [field_classes] => class1 class2
     [url] => http://acfimagefocus.test/wp-content/uploads/2023/07/test-image-768x599.webp
     [width] => 768
     [height] => 671
+    [alt] => 
+    [author] => 1
+    [description] => 
+    [caption] => 
+    [uploaded_to] => 0
+    [date] => 2023-11-07 08:17:27
+    [modified] => 2023-11-07 08:17:27
+    [mime_type] => image/webp
+    [subtype] => webp
 )
 ```
 
@@ -88,7 +107,7 @@ Return value is `<img>` tag with already applied Image array.
 ```html
 <img
     data-image-id="13"
-    class="acf-image-focus"
+    class="acf-image-focus class1 class2"
     loading="lazy"
     decoding="async"
     width="768"

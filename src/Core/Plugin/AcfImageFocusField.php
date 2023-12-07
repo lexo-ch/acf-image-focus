@@ -72,7 +72,8 @@ class AcfImageFocusField extends acf_field
             'max_width',
             'max_height',
             'max_size',
-            'aspect_ratio'
+            'aspect_ratio',
+            'acfif_field_classes'
         ];
 
         foreach ($clear as $k) {
@@ -134,7 +135,8 @@ class AcfImageFocusField extends acf_field
     {
         $this->renderTabSettings($field, [
             'preview_size',
-            'aspect_ratio'
+            'aspect_ratio',
+            'acfif_field_classes'
         ]);
     }
 
@@ -182,8 +184,8 @@ class AcfImageFocusField extends acf_field
             'position_y'    => $field['value']['position_y'] ?? '',
         ];
 
-        $img = ($id) ? wp_get_attachment_image_src($id, $field['preview_size']) : '';
-        $url = ($id) ? $img[0] : '';
+        $img = $id ? wp_get_attachment_image_src($id, $field['preview_size']) : '';
+        $url = ($id && $img) ? $img[0] : '';
 
         $acf_image_focus_classes = [
             'acf-image-focus',
@@ -258,6 +260,7 @@ class AcfImageFocusField extends acf_field
             'position_x'    => round($value['position_x'], 2),
             'position_y'    => round($value['position_y'], 2),
             'aspect_ratio'  => $field['aspect_ratio'],
+            'field_classes' => $field['acfif_field_classes']
         ];
 
         switch ($field['return_format']) {

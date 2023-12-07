@@ -161,8 +161,7 @@ class Loader extends Singleton implements LoaderInterface
                 [],
                 $version,
                 [
-                    'strategy'  => 'async',
-                    'in_footer' => false
+                    'in_footer' => true
                 ]
             );
 
