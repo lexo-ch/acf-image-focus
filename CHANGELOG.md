@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/lexo-ch/acf-image-focus/compare/v1.1.2...v1.1.3) (2023-12-8)
+
+
+### Bug Fixes
+
+* **core:** Fix preview size on squared images ([2447b9b](https://github.com/lexo-ch/acf-image-focus/commit/2447b9bd3e382c2f8b5a2c40b7e7300efd08562a))
+
 ## [1.1.2](https://github.com/lexo-ch/acf-image-focus/compare/v1.1.1...v1.1.2) (2023-12-7)
 
 
