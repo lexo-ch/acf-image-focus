@@ -169,8 +169,8 @@ import Cropper from 'cropperjs';
           break;
 
         default:
-          newWidth = width;
-          newHeight = height;
+          newWidth = maxWidthHeight;
+          newHeight = maxWidthHeight;
           break;
       }
 
