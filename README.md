@@ -128,7 +128,7 @@ Return value is `<img>` tag with already applied Image array.
 #### - `acfif/enqueue/admin-acfif.js`
 *Parameters*
 `apply_filters('acfif/enqueue/admin-acfif.js', $args);`
-- $args (bool) Printing of the file `admin-acfif.js` (stylesheet id is `acfif/admin-acfif.js-js`). It also affects printing of the localized `acfifAdminLocalized` variable.
+- $args (bool) Printing of the file `admin-acfif.js` (script id is `acfif/admin-acfif.js-js`). It also affects printing of the localized `acfifAdminLocalized` variable.
 
 #### - `acfif/enqueue/admin-acfif.css`
 *Parameters*
