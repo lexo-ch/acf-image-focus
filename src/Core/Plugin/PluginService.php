@@ -62,7 +62,7 @@ class PluginService extends Singleton
 
         $vars = apply_filters(self::$namespace . '/admin/localized-script', $vars);
 
-        wp_localize_script(trailingslashit(self::$namespace) . 'admin-acfif.js', 'acfifAdminLocalized', $vars);
+        wp_localize_script(trailingslashit(self::$namespace) . 'admin-' . DOMAIN . '.js', DOMAIN . 'AdminLocalized', $vars);
     }
 
     public function addUpdateCheckLink()
