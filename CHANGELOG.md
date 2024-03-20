@@ -1,3 +1,11 @@
+## [1.1.4](https://github.com/lexo-ch/acf-image-focus/compare/v1.1.3...v1.1.4) (2024-03-20)
+
+
+### Bug Fixes
+
+* **core:** Fix warnings ([187a499](https://github.com/lexo-ch/acf-image-focus/commit/187a4995e28868a3c7d6040baeae0cd1916d0559))
+* **deps:** Update dependencies ([a4f23b2](https://github.com/lexo-ch/acf-image-focus/commit/a4f23b2fd8c70756c5c62e37dc6601dd58ec4419))
+
 ## [1.1.3](https://github.com/lexo-ch/acf-image-focus/compare/v1.1.2...v1.1.3) (2023-12-8)
 
 
