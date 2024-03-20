@@ -21,6 +21,10 @@ class ImageOutput implements OutputInterface
     {
         $image_data = $this->getImageData($formatted_value);
 
+        if (empty($image_data)) {
+            return '';
+        }
+
         $style_attr = [
             'object-fit'        => 'cover',
             'object-position'   => "{$formatted_value['position_x']}% {$formatted_value['position_y']}%",
@@ -89,6 +93,10 @@ class ImageOutput implements OutputInterface
     public function getImageData(array $formatted_value): array
     {
         $attachment = acf_get_attachment($formatted_value['image_id']);
+
+        if ($attachment === false) {
+            return [];
+        }
 
         $size = $formatted_value['image_size'];
 
