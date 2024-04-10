@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/lexo-ch/acf-image-focus/compare/v1.1.4...v1.1.5) (2024-04-10)
+
+
+### Bug Fixes
+
+* **core:** Check for update every hour ([9a346a4](https://github.com/lexo-ch/acf-image-focus/commit/9a346a4b09f02c530c632372afe1399d29ac18ce))
+
 ## [1.1.4](https://github.com/lexo-ch/acf-image-focus/compare/v1.1.3...v1.1.4) (2024-03-20)
 
 
