@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/lexo-ch/acf-image-focus/compare/v1.1.5...v1.1.6) (2024-04-16)
+
+
+### Bug Fixes
+
+* **core:** Fix missing attachment warning ([4d0d119](https://github.com/lexo-ch/acf-image-focus/commit/4d0d119715899b6dfe2a701f5cff05fb3426d8d4))
+
 ## [1.1.5](https://github.com/lexo-ch/acf-image-focus/compare/v1.1.4...v1.1.5) (2024-04-10)
 
 
