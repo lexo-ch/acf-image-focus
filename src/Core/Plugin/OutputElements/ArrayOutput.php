@@ -23,6 +23,10 @@ class ArrayOutput implements OutputInterface
 
         $attachment = acf_get_attachment($formatted_value['image_id']);
 
+        if ($attachment === false) {
+            return [];
+        }
+
         $size = $formatted_value['image_size'];
 
         $is_full = $size === 'full';
