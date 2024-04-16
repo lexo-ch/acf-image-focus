@@ -14,6 +14,7 @@
  * Text Domain:       acfif
  * Domain Path:       /languages
  * Update URI:        acf-image-focus
+ * Requires Plugins:  advanced-custom-fields-pro
  */
 
 namespace LEXO\AcfIF;
