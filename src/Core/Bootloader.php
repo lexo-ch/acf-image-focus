@@ -47,6 +47,8 @@ class Bootloader extends Singleton
             );
         }
 
+        wp_enqueue_media();
+
         $plugin_settings = PluginService::getInstance();
         $plugin_settings->setNamespace(DOMAIN);
         $plugin_settings->registerNamespace();
