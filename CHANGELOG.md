@@ -1,3 +1,10 @@
+## [1.1.9](https://github.com/lexo-ch/acf-image-focus/compare/v1.1.8...v1.1.9) (2024-05-13)
+
+
+### Bug Fixes
+
+* **core:** Load wp_enqueue_media() in wp-admin only ([d8c24dc](https://github.com/lexo-ch/acf-image-focus/commit/d8c24dc4aeab0a357a88f8b6b24a194c0dd1e042))
+
 ## [1.1.8](https://github.com/lexo-ch/acf-image-focus/compare/v1.1.7...v1.1.8) (2024-05-13)
 
 
