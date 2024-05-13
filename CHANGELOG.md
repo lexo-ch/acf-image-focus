@@ -1,3 +1,11 @@
+## [1.1.8](https://github.com/lexo-ch/acf-image-focus/compare/v1.1.7...v1.1.8) (2024-05-13)
+
+
+### Bug Fixes
+
+* **core:** Fix bug on "Add new category" page ([6269f97](https://github.com/lexo-ch/acf-image-focus/commit/6269f97794dfb530e179edf6bc175e765553d08e))
+* **deps:** Update dependencies ([f67a004](https://github.com/lexo-ch/acf-image-focus/commit/f67a0044ec151ee2dce59e9a5813987e18f96d89))
+
 ## [1.1.7](https://github.com/lexo-ch/acf-image-focus/compare/v1.1.6...v1.1.7) (2024-04-16)
 
 
