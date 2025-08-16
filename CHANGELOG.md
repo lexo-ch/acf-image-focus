@@ -1,3 +1,11 @@
+## [1.1.10](https://github.com/lexo-ch/acf-image-focus/compare/v1.1.9...v1.1.10) (2025-08-16)
+
+
+### Bug Fixes
+
+* **core:** Fix deprecated creation of dynamic property ([8761475](https://github.com/lexo-ch/acf-image-focus/commit/8761475e3f39f9194b688f7d2646808cbd60c25c))
+* **deps:** Update Composer dependencies ([0b66f0c](https://github.com/lexo-ch/acf-image-focus/commit/0b66f0c74a32038a59a0acdf1c09006a6aa37820))
+
 ## [1.1.9](https://github.com/lexo-ch/acf-image-focus/compare/v1.1.8...v1.1.9) (2024-05-13)
 
 
