@@ -1,3 +1,10 @@
+## [1.1.11](https://github.com/lexo-ch/acf-image-focus/compare/v1.1.10...v1.1.11) (2025-08-16)
+
+
+### Bug Fixes
+
+* **core:** Fix not allowed dynamic properties ([c0f7ad7](https://github.com/lexo-ch/acf-image-focus/commit/c0f7ad7b61ad92791f16948536e0e58e014df31d))
+
 ## [1.1.10](https://github.com/lexo-ch/acf-image-focus/compare/v1.1.9...v1.1.10) (2025-08-16)
 
 
