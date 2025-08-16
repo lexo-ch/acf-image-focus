@@ -25,14 +25,6 @@ class AcfImageFocusField extends acf_field
 
     protected array $render_field_settings;
     public array $settings;
-    public string $name;
-    public string $label;
-    public string $description;
-    public string $doc_url;
-    public string $preview_image;
-    public string $category;
-    public array $defaults;
-
 
     public function __construct()
     {
