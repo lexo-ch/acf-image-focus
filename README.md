@@ -9,7 +9,7 @@ Release tags are created with Semantic versioning in mind. Commit messages were 
 
 ---
 ## Compatibility
-- WordPress version `>=4.7`. Tested and works fine up to `6.5.2`.
+- WordPress version `>=4.7`. Tested and works fine up to `6.8.2`.
 - PHP version `>=7.4.1`. Tested and works fine up to `8.3.0`.
 - Minimum major ACF version `5`. Tested and works fine up to `6.2.9`.
 
@@ -61,6 +61,7 @@ Return value is array with folowing elements:
 - (float) `aspect_ratio` - Image aspect ratio in frontend.
 - (string) `field_classes` - Image classes in frontend.
 - (string) `url` - Image URL.
+- (string) `full_url` - Full image URL.
 - (int) `width` - Width in pixels.
 - (int) `height` - Height in pixels.
 - (string) `alt` - Image alt.
@@ -86,6 +87,7 @@ Array
     [aspect_ratio] => 1.778
     [field_classes] => class1 class2
     [url] => http://acfimagefocus.test/wp-content/uploads/2023/07/test-image-768x599.webp
+    [full_url] => http://acfimagefocus.test/wp-content/uploads/2023/07/test-image.webp
     [width] => 768
     [height] => 671
     [alt] => 

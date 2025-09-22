@@ -32,6 +32,7 @@ class ArrayOutput implements OutputInterface
         $is_full = $size === 'full';
 
         $data['url']            = $is_full ? $attachment['url'] : $attachment['sizes'][$size];
+        $data['full_url']       = $attachment['url'];
         $data['width']          = $is_full ? $attachment['width'] : $attachment['sizes']["{$size}-width"];
         $data['height']         = $is_full ? $attachment['height'] : $attachment['sizes']["{$size}-height"];
         $data['alt']            = $attachment['alt'];
