@@ -1,3 +1,10 @@
+## [1.1.12](https://github.com/lexo-ch/acf-image-focus/compare/v1.1.11...v1.1.12) (2025-09-22)
+
+
+### Bug Fixes
+
+* **core:** Add full_url to array output ([ec1aff1](https://github.com/lexo-ch/acf-image-focus/commit/ec1aff1a55f7bf6c5dc12bf8d29646dee0a4f8dd))
+
 ## [1.1.11](https://github.com/lexo-ch/acf-image-focus/compare/v1.1.10...v1.1.11) (2025-08-16)
 
 
