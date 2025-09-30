@@ -48,7 +48,9 @@ class Bootloader extends Singleton
         }
 
         if (is_admin()) {
-            wp_enqueue_media();
+            add_action('admin_enqueue_scripts', function () {
+                wp_enqueue_media();
+            });
         }
 
         $plugin_settings = PluginService::getInstance();
